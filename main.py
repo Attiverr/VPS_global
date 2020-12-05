@@ -39,8 +39,6 @@ def run_bot():
         print("Loading took too much time!")
     ActionChains(driver).move_to_element(start_new_booking).click().perform()
 
-
-
     # driver.save_screenshot() # save screenshot
     # driver.close()
 
